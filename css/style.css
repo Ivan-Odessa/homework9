@@ -100,7 +100,8 @@ body {
 }
 
 .car:hover .part4::before {
-	box-shadow: red 0px 0px 10px 10px;
+	box-shadow: red 14px 0px 12px 11px;
+	z-index: 1;
 }
 
 .car:hover .signal__part1-signal {
@@ -114,7 +115,8 @@ body {
 }
 
 .car:hover .part4::after {
-	box-shadow: rgb(241, 235, 235) 0px 0px 10px 10px;
+	box-shadow: rgb(241, 235, 235) 14px 0px 12px 11px;
+	z-index: 1;
 }
 
 .roof {
@@ -446,10 +448,6 @@ body {
 .part4::before {
 	top: 115px;
 	background-color: #693C3F;
-}
-
-.part4:hover::before {
-	box-shadow: red 0px 0px 10px 10px;
 }
 
 .part4::after {
